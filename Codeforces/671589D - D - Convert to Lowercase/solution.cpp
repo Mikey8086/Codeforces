@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+
+  char ch;
+  scanf("%c",&ch);
+
+  if(ch>='A' && ch<='Z'){
+    printf("%c",ch+32);
+  }else{
+    printf("%c",ch);
+  }
+
+  return 0;
+}
+
